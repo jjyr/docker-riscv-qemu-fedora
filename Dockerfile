@@ -12,7 +12,7 @@ RUN wget https://download.qemu.org/qemu-3.1.0.tar.xz && \
   make && make install && \
   rm -rf qemu-3.1.0.tar.xz qemu-3.1.0
 
-RUN wget http://fedora-riscv.tranquillity.se/kojifiles/work/tasks/5629/155629/Fedora-Developer-Rawhide-20190112.n.0-sda.raw.xz && \
+RUN wget https://dl.fedoraproject.org/pub/alt/risc-v/disk-images/fedora/rawhide/20190703.n.0/Developer/Fedora-Developer-Rawhide-20190703.n.0-sda.raw.xz && \
   wget https://fedorapeople.org/groups/risc-v/disk-images/bbl && \
   unxz Fedora-Developer-Rawhide-20190112.n.0-sda.raw.xz
 
