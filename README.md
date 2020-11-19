@@ -1,11 +1,12 @@
 # docker-riscv-qemu
 
-## How to use 
+## Build
 
 ```
-$ docker run -d -p 1234:10000 tsunetsune/docker-riscv-qemu-fedora:0.1
+docker build . -t jjy0/riscv-qemu-fedora
 ```
 
+# Usage
 
 ```
 $ ssh -p 1234 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@localhost
